@@ -1,0 +1,6 @@
+<%=form_for(@photo) do |f|%>
+<p>Nazwa: <%=f.text_field(:name)%> </p>
+<p>URL: <%=f.text_field(:url)%> </p>
+  <%=f.submit("Save")%>
+<%end%>
+
